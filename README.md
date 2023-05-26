@@ -13,7 +13,7 @@ make all
 
 ## Generated Documentation
 
-English Version:
+English version:
 
 ```
 build/html
