@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Sphinx team
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-26 16:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: pl <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../src/quickstart.rst:3
+msgid "Quick Start"
+msgstr ""
+
+#: ../../src/quickstart.rst:6
+msgid "Installation"
+msgstr ""
+
+#: ../../src/quickstart.rst:8
+msgid "Please install sphinx-intl using pip (8.1.1 or later)."
+msgstr ""
+
+#: ../../src/quickstart.rst:16
+msgid "QuickStart for sphinx translation"
+msgstr ""
+
+#: ../../src/quickstart.rst:18
+msgid ""
+"This section describe how to translate with Sphinx_ and `sphinx-intl` "
+"command."
+msgstr ""
+
+#: ../../src/quickstart.rst:20
+msgid "Create your document by using Sphinx."
+msgstr ""
+
+#: ../../src/quickstart.rst:22
+msgid ""
+"working-example project is here: https://github.com/sphinx-doc/sphinx-"
+"intl/tree/master/doc"
+msgstr ""
+
+#: ../../src/quickstart.rst:25
+msgid "Add configurations to your `conf.py`::"
+msgstr ""
+
+#: ../../src/quickstart.rst:30
+msgid "`locale_dirs` is required and `gettext_compact` is optional."
+msgstr ""
+
+#: ../../src/quickstart.rst:32
+msgid ""
+"refs `example <https://github.com/sphinx-doc/sphinx-"
+"intl/blob/master/doc/conf.py#L29>`__."
+msgstr ""
+
+#: ../../src/quickstart.rst:34
+msgid "Extract document's translatable messages into pot files::"
+msgstr ""
+
+#: ../../src/quickstart.rst:38
+msgid ""
+"This invokes the sphinx gettext builder that generates ``*.pot`` files "
+"under ``_build/gettext`` directory."
+msgstr ""
+
+#: ../../src/quickstart.rst:41
+msgid "Setup/Update your po files under ``locale_dir``::"
+msgstr ""
+
+#: ../../src/quickstart.rst:45
+msgid "After this, you get these directories that contain po files:"
+msgstr ""
+
+#: ../../src/quickstart.rst:47
+msgid "`./locale/de/LC_MESSAGES/`"
+msgstr ""
+
+#: ../../src/quickstart.rst:48
+msgid "`./locale/ja/LC_MESSAGES/`"
+msgstr ""
+
+#: ../../src/quickstart.rst:50
+msgid "Translate your ``po`` files under `./locale/<lang>/LC_MESSAGES/`."
+msgstr ""
+
+#: ../../src/quickstart.rst:52
+msgid "Make translated document."
+msgstr ""
+
+#: ../../src/quickstart.rst:54
+msgid "On Linux/BSD::"
+msgstr ""
+
+#: ../../src/quickstart.rst:58
+msgid "On Windows::"
+msgstr ""
+
+#: ../../src/quickstart.rst:63
+msgid "That's all!"
+msgstr ""
+
+#: ../../src/quickstart.rst:65
+msgid "For more information, please refer to :doc:`refs`."
+msgstr ""
+
+#: ../../src/quickstart.rst:70
+msgid "QuickStart console log"
+msgstr ""
+

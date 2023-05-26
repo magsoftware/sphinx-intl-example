@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Sphinx team
+# This file is distributed under the same license as the sphinx-intl
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-intl 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-26 16:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: pl <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../src/basic.rst:3
+msgid "Basic"
+msgstr "Podstawy"
+
+#: ../../src/basic.rst:9
+msgid "Basic Features"
+msgstr "Funkcje podstawowe"
+
+#: ../../src/basic.rst:11
+msgid "create or update po files from pot files."
+msgstr "tworzenie lub aktualizacja plików po z plików pot"
+
+#: ../../src/basic.rst:12
+msgid "build mo files from po files."
+msgstr "tworzenie plików mo z plików po"
+
+#: ../../src/basic.rst:15
+msgid "Optional features"
+msgstr "Funkcje opcjonalne"
+
+#: ../../src/basic.rst:16
+msgid ""
+"These features depends on the `transifex-client`_ tool. Please refer "
+"Installation_ section to install it."
+msgstr ""
+"Funkcje te zależą od narzędzia `transifex-client`_. Zapoznaj się z "
+"sekcją Instalacja_, aby je zainstalować."
+
+#: ../../src/basic.rst:19
+msgid ""
+"create ``.transifexrc`` file from environment variable, without "
+"interactive input."
+msgstr ""
+"tworzy plik ``.transifexrc`` ze zmiennej środowiskowej, bez "
+"interaktywnego wprowadzania danych."
+
+#: ../../src/basic.rst:21
+msgid "create ``.tx/config`` file without interactive input."
+msgstr "tworzy plik ``.tx/config`` bez interaktywnego wprowadzania danych."
+
+#: ../../src/basic.rst:22
+msgid "update ``.tx/config`` file from locale/pot files automatically."
+msgstr "automatycznie aktualizuje plik ``.tx/config`` z plików locale/pot."
+
+#: ../../src/basic.rst:23
+msgid "build mo files from po files in the locale directory."
+msgstr "buduje pliki mo z plików po w katalogu ustawień regionalnych."
+
+#: ../../src/basic.rst:25
+msgid "You need to use `tx` command for below features:"
+msgstr "Należy użyć polecenia `tx` dla poniższych funkcji:"
+
+#: ../../src/basic.rst:27
+msgid "``tx push -s`` : push pot (translation catalogs) to transifex."
+msgstr "``tx push -s`` : wypycha pot (katalogi tłumaczeń) do transifex"
+
+#: ../../src/basic.rst:28
+msgid "``tx pull -l ja`` : pull po (translated catalogs) from transifex."
+msgstr "``tx pull -l ja`` : zaciąga po (katalogi tłumaczeń) z transifex"
+
+#: ../../src/basic.rst:34
+msgid "Installation"
+msgstr "Instalacja"
+
+#: ../../src/basic.rst:36
+msgid "It is strongly recommended to use virtualenv/venv for this procedure::"
+msgstr "Zdecydowanie zaleca się użycie virtualenv/venv dla tej procedury::"
+
+#: ../../src/basic.rst:40
+msgid ""
+"If you want to use `Optional Features`_, you need install Transifex CLI "
+"tool. Please refer to `Installation instructions "
+"<https://github.com/transifex/cli#installation>`_."
+msgstr ""
+"Jeśli chcesz korzystać z `Opcjonalnych funkcji`_, musisz zainstalować "
+"narzędzie Transifex CLI. Zapoznaj się z `Instrukcjami instalacji "
+"<https://github.com/transifex/cli#installation>`_."
